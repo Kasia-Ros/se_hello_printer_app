@@ -1,11 +1,9 @@
 .PHONY: deps
 .PHONY: test
 
-
 deps:
 	pip install -r requirements.txt;
 	pip install -r test_requirements.txt;
-
 
 lint:
 	flake8 hello_world test
@@ -18,3 +16,7 @@ test:
 
 run:
 	pyton main.py
+
+
+docker_build:
+  docker_build -t hello_world-printer .
