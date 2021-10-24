@@ -18,6 +18,18 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ pip list
   ```
 
+Uruchomienie aplikacji z pomoca pliku Makefile:
+
+  ```
+  # zainstalowanie dependencies
+  $ make deps
+  # uruchomienie aplikacji
+  $ make run
+  # uruchomienie testow
+  $ make test
+  
+  ```
+
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
 
 - Uruchamianie applikacji:
