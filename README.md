@@ -1,5 +1,12 @@
 # Simple Flask App
 
+# Monitoring
+
+[![Build Status](https://app.travis-ci.com/Kasia-Ros/se_hello_printer_app.svg?branch=master)](https://app.travis-ci.com/Kasia-Ros/se_hello_printer_app)
+
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=6226020&Days=1&Design=1" /></a>
+
+
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
@@ -27,7 +34,7 @@ Uruchomienie aplikacji z pomoca pliku Makefile:
   $ make run
   # uruchomienie testow
   $ make test
-  
+
   ```
 
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
@@ -59,7 +66,7 @@ Uruchomienie aplikacji z pomoca pliku Makefile:
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
