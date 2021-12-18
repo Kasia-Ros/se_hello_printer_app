@@ -13,3 +13,6 @@ script:
 
 after_success:
   - make docker_push
+
+api_key:
+    secure: "${HEROKU_API_KEY}"
