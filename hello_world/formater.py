@@ -23,16 +23,23 @@ def get_formatted(msg, imie, format):
 
 
 def format_to_json(msg, imie):
-    return ('{ "imie":"' + imie + '", "mgs":"' +
-            msg + '"}')
+    return '{ "imie":"' + imie + '", "mgs":"' + msg + '"}'
+
 
 def format_to_xml(msg, imie):
-    return ('<greetings>\n <name>' + imie + '</name>' +
-             '\n <msg>' + msg + '</msg>'+
-             '\n</greetings> ')
+    return (
+        "<greetings>\n <name>"
+        + imie
+        + "</name>"
+        + "\n <msg>"
+        + msg
+        + "</msg>"
+        + "\n</greetings> "
+    )
+
 
 def plain_text(msg, imie):
-    return imie + ' ' + msg
+    return imie + " " + msg
 
 
 def plain_text_upper_case(msg, imie):
